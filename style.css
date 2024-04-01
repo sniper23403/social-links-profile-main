@@ -53,6 +53,7 @@ h4{
     color: var(--color-green);
     margin-bottom: 20px;
 }
+
 p{
     color: var(--color-white);
     font-weight: var(--font-size-regular);
@@ -63,7 +64,8 @@ p{
     flex-direction: column;
     margin-top: 30px;
 }
- button {
+
+ a{
     width: 100%;
     padding: 20px;
     margin-bottom: 10px;
@@ -73,13 +75,10 @@ p{
     color: var(--color-white);
     font-weight: var(--font-size-bold);
     font-size: medium;
- }
- a{
     text-decoration: none;
-    color: var(--color-white);
- }
+}
 
- button:hover {
+ a:hover {
     background-color: var(--color-green);
     cursor: pointer;
     color: var(--color-Off-Black);
@@ -94,6 +93,6 @@ p{
     body {
         overflow: scroll;
     }
-    
+
  }
  
